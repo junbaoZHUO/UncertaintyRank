@@ -16,7 +16,8 @@ def make_dataset(image_list, labels):
       images = [(image_list[i].strip(), labels[i, :]) for i in range(len_)]
     else:
       if len(image_list[0].split()) > 3:
-        images = [(val.split()[0], np.array([int(la) for la in val.split()[1:]])) for val in image_list]
+        images = [(val.split()[0], int(val.split()[1]), float(val.split()[-1])) for val in image_list]
+        # images = [(val.split()[0], np.array([int(la) for la in val.split()[1:]])) for val in image_list]
       else:
         images = [(val.split()[0], int(val.split()[1])) for val in image_list]
     return images
@@ -85,17 +86,21 @@ class ImageList(object):
         Returns:
             tuple: (image, target) where target is class_index of the target class.
         """
-        path, target = self.imgs[index]
+        if len(self.imgs[0])==3:
+            path, target, WEIGHT = self.imgs[index]
+        else:
+            path, target = self.imgs[index]
+            WEIGHT=0
         if '/data1/junbao' in path:
             img = self.loader(path)
         else:
-            img = self.loader("/data1/junbao/RDA/data/"+path)
+            img = self.loader("/data1/junbao/RDA/data/"+path)#/path to images
         if self.transform is not None:
             img = self.transform(img)
         if self.target_transform is not None:
             target = self.target_transform(target)
         #TODO return true target labels
-        return img, target, index
+        return img, target, index, WEIGHT
 
     def __len__(self):
         return len(self.imgs)

@@ -24,9 +24,9 @@ class GradientReverseLayer(torch.autograd.Function):
         return -self.coeff * grad_output
 
 
-class MDDUNet(nn.Module):
+class MDDNet(nn.Module):
     def __init__(self, base_net='ResNet50', use_bottleneck=False, bottleneck_dim=1024, width=1024, class_num=31):
-        super(MDDUNet, self).__init__()
+        super(MDDNet, self).__init__()
         ## set base network
         self.base_network = backbone.network_dict[base_net]()
         self.use_bottleneck = use_bottleneck
@@ -40,9 +40,6 @@ class MDDUNet(nn.Module):
                                         nn.Linear(width, class_num)]
         self.classifier_layer_2 = nn.Sequential(*self.classifier_layer_2_list)
         self.softmax = nn.Softmax(dim=1)
-        self.U_list = [nn.Dropout(0.5), nn.Linear(width, 1), nn.Tanh()]
-        # sself.U_list = [nn.Dropout(0.5), nn.Linear(width, 1), nn.LeakyReLU()]
-        self.U = nn.Sequential(*self.U_list)
 
         ## initialization
         self.bottleneck_layer[0].weight.data.normal_(0, 0.005)
@@ -58,7 +55,6 @@ class MDDUNet(nn.Module):
         self.parameter_list = [{"params":self.base_network.parameters(), "lr":0.1},
                             {"params":self.bottleneck_layer.parameters(), "lr":1},
                         {"params":self.classifier_layer.parameters(), "lr":1},
-                        {"params":self.U.parameters(), "lr":1},
                                {"params":self.classifier_layer_2.parameters(), "lr":1}]
     def forward(self, inputs):
         features = self.base_network(inputs)
@@ -67,14 +63,13 @@ class MDDUNet(nn.Module):
         features_adv = self.grl_layer(features)
         outputs_adv = self.classifier_layer_2(features_adv)
         outputs = self.classifier_layer(features)
-        U_ = self.U(features)
         softmax_outputs = self.softmax(outputs)
 
-        return features, outputs, softmax_outputs, outputs_adv, U_
+        return features, outputs, softmax_outputs, outputs_adv
 
-class MDDU(object):
+class MDD(object):
     def __init__(self, base_net='ResNet50', width=1024, class_num=31, use_bottleneck=True, use_gpu=True, srcweight=3):
-        self.c_net = MDDUNet(base_net, use_bottleneck, width, width, class_num)
+        self.c_net = MDDNet(base_net, use_bottleneck, width, width, class_num)
         self.use_gpu = use_gpu
         self.is_train = False
         self.iter_num = 0
@@ -83,23 +78,16 @@ class MDDU(object):
             self.c_net = self.c_net.cuda()
         self.srcweight = srcweight
 
-    def get_loss(self, inputs, labels_source, N_N):
-        # print(N_N)
+    def get_loss(self, inputs, labels_source, N_N, WEIGHT):
         class_criterion = nn.CrossEntropyLoss()
-        _, outputs, _, outputs_adv, U_ = self.c_net(inputs)
-        U_s = U_.narrow(0,0,labels_source.size(0))
-        U_t = U_.narrow(0,labels_source.size(0),inputs.size(0) - labels_source.size(0)-N_N)
-        U_n = U_.narrow(0,inputs.size(0) -N_N, N_N)
-        # classifier_loss = (nn.CrossEntropyLoss(reduce=False)(outputs.narrow(0, 0, labels_source.size(0)), labels_source).view(-1,1)*torch.exp(0-U_s)).mean()*1.0 + U_s.mean()*0.2
-        classifier_loss = (nn.CrossEntropyLoss(reduce=False)(outputs.narrow(0, 0, labels_source.size(0)), labels_source)*torch.exp(0-U_s)).mean()*1.0 + U_s.mean()*0.3
+        _, outputs, _, outputs_adv = self.c_net(inputs)
+        classifier_loss = (nn.CrossEntropyLoss(reduce=False)(outputs.narrow(0, 0, labels_source.size(0)), labels_source).view(-1,1)*normalize_weight(0-WEIGHT)).mean()
 
         target_adv = outputs.max(1)[1]
         target_adv_src = target_adv.narrow(0, 0, labels_source.size(0))
         target_adv_tgt = target_adv.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N)
-        target_adv_n = target_adv.narrow(0, inputs.size(0) - N_N, N_N)
 
-        # classifier_loss_adv_src = class_criterion(outputs_adv.narrow(0, 0, labels_source.size(0)), target_adv_src)
-        classifier_loss_adv_src = (nn.CrossEntropyLoss(reduce=False)(outputs_adv.narrow(0, 0, labels_source.size(0)), target_adv_src)*torch.exp(0-U_s.detach())).mean()#.view(-1,1)*normalize_weight(torch.exp(0-U_s.detach()))).mean()
+        classifier_loss_adv_src = (nn.CrossEntropyLoss(reduce=False)(outputs_adv.narrow(0, 0, labels_source.size(0)), target_adv_src).view(-1,1)*normalize_weight(0-WEIGHT)).mean()
 
         logloss_tgt = torch.log(torch.clamp(1 - F.softmax(outputs_adv.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N), dim = 1), min=1e-15)) #add small value to avoid the log value expansion
 
@@ -107,17 +95,13 @@ class MDDU(object):
 
         transfer_loss = self.srcweight * classifier_loss_adv_src + classifier_loss_adv_tgt
 
-        # outputs_target = outputs.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N)# MDD
-        # outputs_target = outputs_adv.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N)
-        en_loss = entropy(outputs_adv.narrow(0, labels_source.size(0), inputs.size(0)-labels_source.size(0)))#outputs_target)#EZHUO
+        en_loss = entropy(outputs_adv.narrow(0, labels_source.size(0), inputs.size(0)-labels_source.size(0)))
         self.iter_num += 1
         total_loss = classifier_loss + transfer_loss + 0.1*en_loss
-        # total_loss = classifier_loss + transfer_loss #+ 0.1*en_loss
-        # print(classifier_loss.data, transfer_loss.data)#, en_loss.data)
         return [total_loss, classifier_loss, transfer_loss, classifier_loss_adv_src, classifier_loss_adv_tgt]
 
     def predict(self, inputs):
-        feature, _, softmax_outputs,_,_= self.c_net(inputs)
+        feature, _, softmax_outputs,_= self.c_net(inputs)
         return softmax_outputs, feature
 
     def get_parameter_list(self):
@@ -137,10 +121,11 @@ def entropy(output_target):
     en = -torch.sum((output*torch.log(output + 1e-8)), 1)
     return torch.mean(en)
 
+
+
 def normalize_weight(x):
     min_val = x.min()
     max_val = x.max()
     x = (x - min_val) / (max_val - min_val+0.00001)
-    #x = x / (torch.mean(x)+0.0000001)
-    return x#.detach()
+    return x.float().cuda()
 

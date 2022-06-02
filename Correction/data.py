@@ -1,104 +1,11 @@
-#from __future__ import print_function, division
 
 import torch
 import numpy as np
-# from sklearn.preprocessing import StandardScaler
 import random
 from PIL import Image
 import torch.utils.data as data
 import os
 import os.path
-
-# class TextData():
-#   def __init__(self, text_file, label_file, source_batch_size=64, target_batch_size=64, val_batch_size=4):
-#     all_text = np.load(text_file)
-#     self.source_text = all_text[0:92664, :]
-#     self.target_text = all_text[92664:, :]
-#     self.val_text = all_text[0:92664, :]
-#     all_label = np.load(label_file)
-#     self.label_source = all_label[0:92664, :]
-#     self.label_target = all_label[92664:, :]
-#     self.label_val = all_label[0:92664, :]
-#     self.scaler = StandardScaler().fit(all_text)
-#     self.source_id = 0
-#     self.target_id = 0
-#     self.val_id = 0
-#     self.source_size = self.source_text.shape[0]
-#     self.target_size = self.target_text.shape[0]
-#     self.val_size = self.val_text.shape[0]
-#     self.source_batch_size = source_batch_size
-#     self.target_batch_size = target_batch_size
-#     self.val_batch_size = val_batch_size
-#     self.source_list = random.sample(range(self.source_size), self.source_size)
-#     self.target_list = random.sample(range(self.target_size), self.target_size)
-#     self.val_list = random.sample(range(self.val_size), self.val_size)
-#     self.feature_dim = self.source_text.shape[1]
-#     
-#   def next_batch(self, train=True):
-#     data = []
-#     label = []
-#     if train:
-#       remaining = self.source_size - self.source_id
-#       start = self.source_id
-#       if remaining <= self.source_batch_size:
-#         for i in self.source_list[start:]:
-#           data.append(self.source_text[i, :])
-#           label.append(self.label_source[i, :])
-#           self.source_id += 1
-#         self.source_list = random.sample(range(self.source_size), self.source_size)
-#         self.source_id = 0
-#         for i in self.source_list[0:(self.source_batch_size-remaining)]:
-#           data.append(self.source_text[i, :])
-#           label.append(self.label_source[i, :])
-#           self.source_id += 1
-#       else:
-#         for i in self.source_list[start:start+self.source_batch_size]:
-#           data.append(self.source_text[i, :])
-#           label.append(self.label_source[i, :])
-#           self.source_id += 1
-#       remaining = self.target_size - self.target_id
-#       start = self.target_id
-#       if remaining <= self.target_batch_size:
-#         for i in self.target_list[start:]:
-#           data.append(self.target_text[i, :])
-#           # no target label
-#           #label.append(self.label_target[i, :])
-#           self.target_id += 1
-#         self.target_list = random.sample(range(self.target_size), self.target_size)
-#         self.target_id = 0
-#         for i in self.target_list[0:self.target_batch_size-remaining]:
-#           data.append(self.target_text[i, :])
-#           #label.append(self.label_target[i, :])
-#           self.target_id += 1
-#       else:
-#         for i in self.target_list[start:start+self.target_batch_size]:
-#           data.append(self.target_text[i, :])
-#           #label.append(self.label_target[i, :])
-#           self.target_id += 1
-#     else:
-#       remaining = self.val_size - self.val_id
-#       start = self.val_id
-#       if remaining <= self.val_batch_size:
-#         for i in self.val_list[start:]:
-#           data.append(self.val_text[i, :])
-#           label.append(self.label_val[i, :])
-#           self.val_id += 1
-#         self.val_list = random.sample(range(self.val_size), self.val_size)
-#         self.val_id = 0
-#         for i in self.val_list[0:self.val_batch_size-remaining]:
-#           data.append(self.val_text[i, :])
-#           label.append(self.label_val[i, :])
-#           self.val_id += 1
-#       else:
-#         for i in self.val_list[start:start+self.val_batch_size]:
-#           data.append(self.val_text[i, :])
-#           label.append(self.label_val[i, :])
-#           self.val_id += 1
-#     data = self.scaler.transform(np.vstack(data))
-#     label = np.aavstack(label)
-#     return torch.from_numpy(data).float(),torch.from_numpy(label).float()
-
-
 def make_dataset(image_list, labels):
     if labels:
       len_ = len(image_list)

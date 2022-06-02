@@ -30,17 +30,6 @@ class PlaceCrop(object):
         th, tw = self.size
         return img.crop((self.start_x, self.start_y, self.start_x + tw, self.start_y + th))
 
-
-class TransformTwice:
-    def __call__init__(self, transform):
-        self.transform = transform
-
-    def __call__(self, inp):
-        out1 = self.transform(inp)
-        out2 = self.transform(inp)
-        return out1, out2
-
-
 def load_images(images_file_path, batch_size, resize_size=256, is_train=True, crop_size=224, is_cen=False, split_noisy=False, drop_last=False):
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225])
     if not is_train:
@@ -51,7 +40,7 @@ def load_images(images_file_path, batch_size, resize_size=256, is_train=True, cr
             transforms.ToTensor(),
             normalize])
         images = ImageList(open(images_file_path+'').readlines(), transform=transformer)
-        images_loader = util_data.DataLoader(images, batch_size=batch_size, shuffle=False, num_workers=4)
+        images_loader = util_data.DataLoader(images, batch_size=batch_size, shuffle=False, num_workers=2)
         return images_loader
     else:
         if is_cen:
@@ -68,13 +57,13 @@ def load_images(images_file_path, batch_size, resize_size=256, is_train=True, cr
                   transforms.ToTensor(),
                   normalize])
         if split_noisy:
-            clean_images = ImageList(open(images_file_path.split('.t')[0]+'_true_pred.txt2').readlines(), transform=transformer)
+            clean_images = ImageList(open(images_file_path.split('.t')[0]+'_true_pred.txt4').readlines(), transform=transformer)
             noisy_images = ImageList(open(images_file_path.split('.t')[0]+'_false_pred.txt2').readlines(), transform=transformer)
-            clean_loader = util_data.DataLoader(clean_images, batch_size=batch_size, shuffle=True, num_workers=4)
-            noisy_loader = util_data.DataLoader(noisy_images, batch_size=int(batch_size), shuffle=True, num_workers=4)
+            clean_loader = util_data.DataLoader(clean_images, batch_size=batch_size, shuffle=True, num_workers=2)
+            noisy_loader = util_data.DataLoader(noisy_images, batch_size=int(batch_size), shuffle=True, num_workers=2)
             return clean_loader, noisy_loader
         else:
             images = ImageList(open(images_file_path+'').readlines(), transform=transformer)
-            images_loader = util_data.DataLoader(images, batch_size=batch_size, shuffle=True, num_workers=4, drop_last=drop_last)
+            images_loader = util_data.DataLoader(images, batch_size=batch_size, shuffle=True, num_workers=2, drop_last=drop_last)
             return images_loader
 

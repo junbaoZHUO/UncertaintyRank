@@ -22,26 +22,6 @@ def init_weights(m):
     elif classname.find('BatchNorm') != -1:
         nn.init.normal_(m.weight, 1.0, 0.02)
         nn.init.zeros_(m.bias)
-    # elif classname.find('Linear') != -1:
-    #     #nn.init.kaiming_normal_(m.weight)
-    #     nn.init.normal_(m.weight, 0.0, 0.3)
-    #     # nn.init.xavier_normal_(m.weight)
-    #     nn.init.zeros_(m.bias)
-
-# def zero_weights(m):
-#     classname = m.__class__.__name__
-#     if classname.find('Conv2d') != -1 or classname.find('ConvTranspose2d') != -1:
-#         nn.init.kaiming_uniform_(m.weight)
-#         nn.init.zeros_(m.bias)
-#     elif classname.find('BatchNorm') != -1:
-#         nn.init.normal_(m.weight, 1.0, 0.02)
-#         nn.init.zeros_(m.bias)
-#     elif classname.find('Linear') != -1:
-#         #nn.init.kaiming_uniform_(m.weight)
-#         #nn.init.xavier_normal_(m.weight)
-#         nn.init.zeros_(m.weight)
-#         nn.init.zeros_(m.bias)
-
 
 resnet_dict = {"ResNet18":models.resnet18, "ResNet34":models.resnet34, "ResNet50":models.resnet50, "ResNet101":models.resnet101, "ResNet152":models.resnet152}
 
@@ -63,23 +43,15 @@ class ResNetFc(nn.Module):
     self.layer3 = model_resnet.layer3
     self.layer4 = model_resnet.layer4
     self.avgpool = model_resnet.avgpool
-    self.feature_layers = nn.Sequential(self.conv1, self.bn1, self.relu, self.maxpool, \
-                         self.layer1, self.layer2, self.layer3, self.layer4, self.avgpool)
 
     self.use_bottleneck = use_bottleneck
-    self.sigmoid = nn.Sigmoid()
     self.new_cls = new_cls
     if new_cls:
         if self.use_bottleneck:
             self.bottleneck = nn.Linear(model_resnet.fc.in_features, bottleneck_dim)
             self.fc = nn.Linear(bottleneck_dim, class_num)
-            self.focal1 = nn.Linear( class_num,class_num)
-            self.focal2 = nn.Linear( class_num,1)
             self.bottleneck.apply(init_weights)
             self.fc.apply(init_weights)
-            self.focal1.apply(init_weights)
-            self.focal2.apply(init_weights)
-            #self.focal2.apply(zero_weights)
             self.__in_features = bottleneck_dim
         else:
             self.fc = nn.Linear(model_resnet.fc.in_features, class_num)
@@ -99,119 +71,20 @@ class ResNetFc(nn.Module):
         x = self.layer1(x)
         x = self.layer2(x)
         x = self.layer3(x)
-        #x = self.layer4(x)
+        x = self.layer4(x)
 
-        #x = self.avgpool(x)
+        x = self.avgpool(x)
+        return x.view(x.size(0), -1)#feat, x
         #feat = F.dropout(x.view(x.size(0), -1), 0.5, training=True)
         # feat = self.bottleneck(feat)
         # feat = F.dropout(feat, 0.3, training=True)
         # x = self.fc(feat)
+        """
         if get_feat:
             return x,feat
         else:
             return x#feat, x
-    else:
-                    
-        x = F.conv2d(x, weights['conv1.weight'], stride=2, padding=3)
-        x = F.batch_norm(x, self.bn1.running_mean, self.bn1.running_var, weights['bn1.weight'], weights['bn1.bias'],training=True)            
-        x = F.threshold(x, 0, 0, inplace=True)
-        x = F.max_pool2d(x, kernel_size=3, stride=2, padding=1)
-        #layer 1
-        for i in range(3):
-            residual = x
-            out = F.conv2d(x, weights['layer1.%d.conv1.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer1[i].bn1.running_mean, self.layer1[i].bn1.running_var, 
-                             weights['layer1.%d.bn1.weight'%i], weights['layer1.%d.bn1.bias'%i],training=True)      
-            out = F.threshold(out, 0, 0, inplace=True)
-            out = F.conv2d(out, weights['layer1.%d.conv2.weight'%i], stride=1, padding=1)
-            out = F.batch_norm(out, self.layer1[i].bn2.running_mean, self.layer1[i].bn2.running_var, 
-                             weights['layer1.%d.bn2.weight'%i], weights['layer1.%d.bn2.bias'%i],training=True)     
-            out = F.threshold(out, 0, 0, inplace=True)
-            out = F.conv2d(out, weights['layer1.%d.conv3.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer1[i].bn3.running_mean, self.layer1[i].bn3.running_var, 
-                             weights['layer1.%d.bn3.weight'%i], weights['layer1.%d.bn3.bias'%i],training=True)                               
-            if i==0:
-                residual = F.conv2d(x, weights['layer1.%d.downsample.0.weight'%i], stride=1)  
-                residual = F.batch_norm(residual, self.layer1[i].downsample[1].running_mean, self.layer1[i].downsample[1].running_var, 
-                             weights['layer1.%d.downsample.1.weight'%i], weights['layer1.%d.downsample.1.bias'%i],training=True)  
-            x = out + residual     
-            x = F.threshold(x, 0, 0, inplace=True)
-        #layer 2
-        for i in range(4):
-            residual = x
-            out = F.conv2d(x, weights['layer2.%d.conv1.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer2[i].bn1.running_mean, self.layer2[i].bn1.running_var, 
-                             weights['layer2.%d.bn1.weight'%i], weights['layer2.%d.bn1.bias'%i],training=True)     
-            out = F.threshold(out, 0, 0, inplace=True)
-            if i==0:
-                out = F.conv2d(out, weights['layer2.%d.conv2.weight'%i], stride=2, padding=1)
-            else:
-                out = F.conv2d(out, weights['layer2.%d.conv2.weight'%i], stride=1, padding=1)
-            out = F.batch_norm(out, self.layer2[i].bn2.running_mean, self.layer2[i].bn2.running_var, 
-                             weights['layer2.%d.bn2.weight'%i], weights['layer2.%d.bn2.bias'%i],training=True)    
-            out = F.threshold(out, 0, 0, inplace=True)
-            out = F.conv2d(out, weights['layer2.%d.conv3.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer2[i].bn3.running_mean, self.layer2[i].bn3.running_var, 
-                             weights['layer2.%d.bn3.weight'%i], weights['layer2.%d.bn3.bias'%i],training=True)                    
-            if i==0:
-                residual = F.conv2d(x, weights['layer2.%d.downsample.0.weight'%i], stride=2)  
-                residual = F.batch_norm(residual, self.layer2[i].downsample[1].running_mean, self.layer2[i].downsample[1].running_var, 
-                             weights['layer2.%d.downsample.1.weight'%i], weights['layer2.%d.downsample.1.bias'%i],training=True)  
-            x = out + residual  
-            x = F.threshold(x, 0, 0, inplace=True)
-        #layer 3
-        for i in range(6):
-            residual = x
-            out = F.conv2d(x, weights['layer3.%d.conv1.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer3[i].bn1.running_mean, self.layer3[i].bn1.running_var, 
-                             weights['layer3.%d.bn1.weight'%i], weights['layer3.%d.bn1.bias'%i],training=True)   
-            out = F.threshold(out, 0, 0, inplace=True)
-            if i==0:
-                out = F.conv2d(out, weights['layer3.%d.conv2.weight'%i], stride=2, padding=1)
-            else:
-                out = F.conv2d(out, weights['layer3.%d.conv2.weight'%i], stride=1, padding=1)
-            out = F.batch_norm(out, self.layer3[i].bn2.running_mean, self.layer3[i].bn2.running_var, 
-                             weights['layer3.%d.bn2.weight'%i], weights['layer3.%d.bn2.bias'%i],training=True)     
-            out = F.threshold(out, 0, 0, inplace=True)
-            out = F.conv2d(out, weights['layer3.%d.conv3.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer3[i].bn3.running_mean, self.layer3[i].bn3.running_var, 
-                             weights['layer3.%d.bn3.weight'%i], weights['layer3.%d.bn3.bias'%i],training=True)                    
-            if i==0:
-                residual = F.conv2d(x, weights['layer3.%d.downsample.0.weight'%i], stride=2)  
-                residual = F.batch_norm(residual, self.layer3[i].downsample[1].running_mean, self.layer3[i].downsample[1].running_var, 
-                             weights['layer3.%d.downsample.1.weight'%i], weights['layer3.%d.downsample.1.bias'%i],training=True)  
-            x = out + residual    
-            x = F.threshold(x, 0, 0, inplace=True)
-            
-        #layer 4
-        for i in range(3):
-            residual = x
-            out = F.conv2d(x, weights['layer4.%d.conv1.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer4[i].bn1.running_mean, self.layer4[i].bn1.running_var, 
-                             weights['layer4.%d.bn1.weight'%i], weights['layer4.%d.bn1.bias'%i],training=True)   
-            out = F.threshold(out, 0, 0, inplace=True)
-            if i==0:
-                out = F.conv2d(out, weights['layer4.%d.conv2.weight'%i], stride=2, padding=1)
-            else:
-                out = F.conv2d(out, weights['layer4.%d.conv2.weight'%i], stride=1, padding=1)
-            out = F.batch_norm(out, self.layer4[i].bn2.running_mean, self.layer4[i].bn2.running_var, 
-                             weights['layer4.%d.bn2.weight'%i], weights['layer4.%d.bn2.bias'%i],training=True)   
-            out = F.threshold(out, 0, 0, inplace=True)
-            out = F.conv2d(out, weights['layer4.%d.conv3.weight'%i], stride=1)
-            out = F.batch_norm(out, self.layer4[i].bn3.running_mean, self.layer4[i].bn3.running_var, 
-                             weights['layer4.%d.bn3.weight'%i], weights['layer4.%d.bn3.bias'%i],training=True)                    
-            if i==0:
-                residual = F.conv2d(x, weights['layer4.%d.downsample.0.weight'%i], stride=2)  
-                residual = F.batch_norm(residual, self.layer4[i].downsample[1].running_mean, self.layer4[i].downsample[1].running_var, 
-                             weights['layer4.%d.downsample.1.weight'%i], weights['layer4.%d.downsample.1.bias'%i],training=True)  
-            x = out + residual    
-            x = F.threshold(x, 0, 0, inplace=True)
-            
-        x = F.avg_pool2d(x, kernel_size=7, stride=1, padding=0)
-        x = x.view(x.size(0), -1)
-        y = F.linear(x, weights['fc.weight'], weights['fc.bias'])                
-        return x,y
-
+        """
 
   def output_num(self):
     return self.__in_features

@@ -94,7 +94,7 @@ class ImageList(object):
         if '/data1/junbao' in path:
             img = self.loader(path)
         else:
-            img = self.loader("/data1/junbao/RDA/data/"+path)#/path to images
+            img = self.loader("/data1/junbao/TMM-git/Adaptation/"+path)#/path to images
         if self.transform is not None:
             img = self.transform(img)
         if self.target_transform is not None:

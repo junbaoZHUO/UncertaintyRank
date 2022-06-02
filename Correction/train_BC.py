@@ -10,7 +10,7 @@ import torch.optim
 import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.transforms as transforms
-import network_dt as network
+import network as network
 import numpy as np
 from PIL import Image
 import os

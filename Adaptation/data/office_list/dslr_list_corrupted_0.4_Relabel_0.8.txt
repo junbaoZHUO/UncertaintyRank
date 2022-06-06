@@ -1,382 +1,386 @@
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0002.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0003.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0004.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0007.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0008.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0009.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0010.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0011.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0012.jpg 5 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0001_corrupted.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0002_corrupted.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0004.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0005.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0006.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0008.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0009.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0010.jpg 24 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0003_corrupted.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0004.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0005_corrupted.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0006.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0009.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0011.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0013.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0015.jpg 21 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0002.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0003.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0004_corrupted.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0005.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0006_corrupted.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0007_corrupted.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0008.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0009.jpg 11 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0003.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0004.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0005.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0006_corrupted.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0007.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0010.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0011.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0012.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0013.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0014_corrupted.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0015.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0016.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0017.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0018_corrupted.jpg 26 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0001_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0002_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0003.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0004.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0006.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0007.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0008.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0009.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0010_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0012.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0014_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0015_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0016.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0017.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0018.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0020.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0022_corrupted.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0023.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0024.jpg 12 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0001.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0002.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0003_corrupted.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0004.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0006.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0008.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0009.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0011.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0012.jpg 16 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0001.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0002.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0004.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0006.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0007.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0008.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0010.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0011.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0012.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0014.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0016_corrupted.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0017.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0018.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0019.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0020_corrupted.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0021.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0022.jpg 15 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0002_corrupted.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0003.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0004_corrupted.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0005_corrupted.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0006_corrupted.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0008.jpg 17 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0001.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0002.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0003.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0005.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0006.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0007.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0008.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0009.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0011.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0012.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0013.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0015.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0016.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0018.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0019.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0020_corrupted.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0021_corrupted.jpg 29 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0001_corrupted.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0003.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0004.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0005.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0006.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0007.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0009.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0010.jpg 19 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0001.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0002.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0003.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0004.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0005.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0006_corrupted.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0007.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0008_corrupted.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0010.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0012.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0013.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0014.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0016.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0017.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0019_corrupted.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0020.jpg 1 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0003_corrupted.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0005.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0007.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0008.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0009.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0010.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0011_corrupted.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0012.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0013.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0014.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0015.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0016_corrupted.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0017.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0018_corrupted.jpg 23 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0001.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0002.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0004.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0005_corrupted.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0006.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0007_corrupted.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0008_corrupted.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0010.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0011.jpg 0 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0001.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0003_corrupted.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0004_corrupted.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0005.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0006.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0007.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0008.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0009.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0010.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0011.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0013.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0015.jpg 8 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0001.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0004.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0005.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0008.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0009.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0010.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0011_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0012_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0013_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0014_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0015.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0016_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0017.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0018.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0019.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0020_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0021.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0022.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0023.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0026_corrupted.jpg 27 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0001_corrupted.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0002_corrupted.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0003.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0004_corrupted.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0006.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0007.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0008.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0010.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0012.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0014.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0015.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0016.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0017.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0018.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0019.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0021.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0022.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0023.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0024.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0026.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0028.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0029.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0030.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0031.jpg 14 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0001_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0002_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0003_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0004_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0005.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0006.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0007_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0010_corrupted.jpg 18 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0002.jpg 25 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0003.jpg 25 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0004_corrupted.jpg 25 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0005.jpg 25 0
-/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0007.jpg 25 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0001.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0003.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0004.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0005.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0007.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0008.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0009.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0010.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0012_corrupted.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0014.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0015_corrupted.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0016.jpg 13 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0001.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0002.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0003.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0004.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0005.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0007.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0008.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0009.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0010.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0011.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0014.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0015.jpg 9 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0001.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0002.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0003_corrupted.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0006.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0007_corrupted.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0009.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0010.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0011.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0012.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0013.jpg 20 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0001.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0002.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0003.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0005.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0006.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0008.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0009_corrupted.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0010.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0011.jpg 3 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0001.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0003.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0004_corrupted.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0005.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0006.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0007.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0009.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0010.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0011.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0012_corrupted.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0013_corrupted.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0014.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0015.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0016.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0020_corrupted.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0021_corrupted.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0022.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0023.jpg 22 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0001.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0003.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0004.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0005.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0006.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0008.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0009_corrupted.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0010_corrupted.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0011.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0012.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0013.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0014.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0015.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0016.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0018.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0020.jpg 28 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0001.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0002.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0003.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0004.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0006.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0008.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0009.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0010.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0011.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0012.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0013.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0014_corrupted.jpg 30 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0001.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0003.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0004.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0005.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0006_corrupted.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0009_corrupted.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0010.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0011.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0012.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0014.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0015.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0016.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0017_corrupted.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0018.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0019.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0020.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0022.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0023.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0024.jpg 2 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0001.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0003_corrupted.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0004.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0005.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0006_corrupted.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0009.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0010.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0011.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0012.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0013.jpg 10 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0002_corrupted.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0003.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0005.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0006.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0007.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0008.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0009.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0010.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0012.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0013.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0014.jpg 7 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0001.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0002_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0003_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0004_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0005.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0006.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0007_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0008_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0009_corrupted.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0013.jpg 6 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0001.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0002_corrupted.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0003.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0004.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0006.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0008.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0009_corrupted.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0010.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0011.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0012.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0013_corrupted.jpg 4 0
-/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0015.jpg 4 0
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0002.jpg 5 0 16.161021314561367
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0003.jpg 5 0 17.607212340459228
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0004.jpg 5 0 17.3107913993299
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0007.jpg 5 0 16.410844762343913
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0008.jpg 5 0 16.55307801347226
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0009.jpg 5 0 18.300862363539636
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0010.jpg 5 0 15.09753067791462
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0011.jpg 5 0 17.01040279958397
+/data1/junbao/RDA/data/Office-31/dslr/images/calculator/frame_0012.jpg 5 0 14.540542342700064
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0001_corrupted.jpg 24 0 97.5457759052515
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0002_corrupted.jpg 24 0 118.07044728845358
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0004.jpg 24 0 42.80403611063957
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0005.jpg 24 0 33.36717660352588
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0006.jpg 24 0 37.76224083453417
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0008.jpg 24 0 54.81469447910786
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0009.jpg 24 0 32.23268396779895
+/data1/junbao/RDA/data/Office-31/dslr/images/ring_binder/frame_0010.jpg 24 0 34.26661406084895
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0003_corrupted.jpg 21 0 132.72375482320786
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0004.jpg 21 0 37.490511920303106
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0006.jpg 21 0 31.799849789589643
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0007_corrupted.jpg 21 0 127.47862195968628
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0008_corrupted.jpg 21 0 131.25223779678345
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0009.jpg 21 0 41.28176296129823
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0010_corrupted.jpg 21 0 129.57483583688736
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0011.jpg 21 0 35.251524571329355
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0013.jpg 21 0 33.36892641708255
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0014_corrupted.jpg 21 0 114.99174571037292
+/data1/junbao/RDA/data/Office-31/dslr/images/printer/frame_0015.jpg 21 0 34.39178227027878
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0001_corrupted.jpg 11 0 129.35674492269754
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0002.jpg 11 0 39.1958838198334
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0003.jpg 11 0 38.95371446758509
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0004_corrupted.jpg 11 0 116.20945072174072
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0005.jpg 11 0 38.03243223764002
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0006_corrupted.jpg 11 0 151.971058934927
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0008.jpg 11 0 48.739547453820705
+/data1/junbao/RDA/data/Office-31/dslr/images/keyboard/frame_0009.jpg 11 0 49.59312430769205
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0001_corrupted.jpg 26 0 57.29034696891904
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0003.jpg 26 0 17.961361838504672
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0004.jpg 26 0 15.724151635542512
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0005.jpg 26 0 22.023334058001637
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0007.jpg 26 0 15.69090721104294
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0010.jpg 26 0 12.501869411673397
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0011.jpg 26 0 15.114839615300298
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0012.jpg 26 0 12.544973255135119
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0013.jpg 26 0 13.720103975618258
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0014_corrupted.jpg 26 0 43.37742370553315
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0015.jpg 26 0 12.07165490090847
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0016.jpg 26 0 11.908908246434294
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0017.jpg 26 0 15.528730901889503
+/data1/junbao/RDA/data/Office-31/dslr/images/scissors/frame_0018_corrupted.jpg 26 0 59.22671027854085
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0002_corrupted.jpg 12 0 112.60949838161469
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0003.jpg 12 0 10.703972746327054
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0004.jpg 12 0 14.262599842622876
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0005_corrupted.jpg 12 0 109.79532432556152
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0006.jpg 12 0 19.89432959444821
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0007.jpg 12 0 27.57615466415882
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0008.jpg 12 0 19.28557800874114
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0009.jpg 12 0 12.471475235186517
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0010_corrupted.jpg 12 0 77.22668498009443
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0011_corrupted.jpg 12 0 86.09092286229134
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0012.jpg 12 0 14.776644277386367
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0015_corrupted.jpg 12 0 95.44126182794571
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0016.jpg 12 0 18.33985236287117
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0017.jpg 12 0 14.147485299035907
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0018.jpg 12 0 16.92049342393875
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0020.jpg 12 0 24.47821692377329
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0022_corrupted.jpg 12 0 88.48233199119568
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0023.jpg 12 0 22.082273837178946
+/data1/junbao/RDA/data/Office-31/dslr/images/laptop_computer/frame_0024.jpg 12 0 19.155671041458845
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0001.jpg 16 0 15.929867173545063
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0002.jpg 16 0 15.479793331585824
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0004.jpg 16 0 17.08121153526008
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0005_corrupted.jpg 16 0 105.27809938788414
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0006.jpg 16 0 18.060885824263096
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0008.jpg 16 0 19.445465872064233
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0009.jpg 16 0 24.787297133356333
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0011.jpg 16 0 17.671695994213223
+/data1/junbao/RDA/data/Office-31/dslr/images/mouse/frame_0012.jpg 16 0 16.30670249904506
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0001.jpg 15 0 9.80686999997124
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0002.jpg 15 0 11.911436434835196
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0004.jpg 15 0 10.466160016134381
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0006.jpg 15 0 10.525002889102325
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0007.jpg 15 0 14.810071967542171
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0008.jpg 15 0 10.721323469653726
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0010.jpg 15 0 9.421070250915363
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0011.jpg 15 0 11.05306997988373
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0012.jpg 15 0 12.434762290678918
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0014.jpg 15 0 11.412727113813162
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0015_corrupted.jpg 15 0 75.39019877463579
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0016_corrupted.jpg 15 0 70.68457457795739
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0017.jpg 15 0 9.171778347226791
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0018.jpg 15 0 9.26845994591713
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0019.jpg 15 0 13.833998597692698
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0021.jpg 15 0 33.810749024152756
+/data1/junbao/RDA/data/Office-31/dslr/images/monitor/frame_0022.jpg 15 0 13.581201604567468
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0002_corrupted.jpg 17 0 58.61133771389723
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0003.jpg 17 0 32.60423667356372
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0004_corrupted.jpg 17 0 79.04365445673466
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0005_corrupted.jpg 17 0 62.9615409001708
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0006_corrupted.jpg 17 0 62.15974321961403
+/data1/junbao/RDA/data/Office-31/dslr/images/mug/frame_0008.jpg 17 0 38.97386798262596
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0001.jpg 29 0 21.462772324681282
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0002.jpg 29 0 16.397899258881807
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0003.jpg 29 0 17.50750921666622
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0004_corrupted.jpg 29 0 126.11867010593414
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0005.jpg 29 0 23.18867402151227
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0006.jpg 29 0 12.183912327513099
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0007.jpg 29 0 11.607345939148217
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0008.jpg 29 0 10.521860566921532
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0009.jpg 29 0 11.08756131771952
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0010_corrupted.jpg 29 0 120.58273637294769
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0011.jpg 29 0 11.794983654282987
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0012.jpg 29 0 9.79060448333621
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0013.jpg 29 0 28.166162863373756
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0015.jpg 29 0 19.107885859906673
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0016.jpg 29 0 18.778290405869484
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0018.jpg 29 0 49.7047144472599
+/data1/junbao/RDA/data/Office-31/dslr/images/tape_dispenser/frame_0019.jpg 29 0 28.559581466019154
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0001_corrupted.jpg 19 0 53.76863043010235
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0003.jpg 19 0 21.07842892408371
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0004.jpg 19 0 19.750438081100583
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0005.jpg 19 0 22.41601960361004
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0006.jpg 19 0 18.752276308834553
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0007.jpg 19 0 20.558789231814444
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0009.jpg 19 0 18.4755873484537
+/data1/junbao/RDA/data/Office-31/dslr/images/pen/frame_0010.jpg 19 0 25.77964934334159
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0001.jpg 1 0 9.827639188268222
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0002.jpg 1 0 11.247786289080977
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0003.jpg 1 0 12.505650512408465
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0004.jpg 1 0 10.324123024009168
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0005.jpg 1 0 10.846994588384405
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0006_corrupted.jpg 1 0 53.14867231808603
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0007.jpg 1 0 9.572867482434958
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0008_corrupted.jpg 1 0 50.16658690571785
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0010.jpg 1 0 13.300719126593322
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0012.jpg 1 0 9.922186112089548
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0013.jpg 1 0 12.385657356819138
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0014.jpg 1 0 7.851936762970581
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0016.jpg 1 0 9.291844158899039
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0017.jpg 1 0 8.573712446319405
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0019_corrupted.jpg 1 0 61.15206553135067
+/data1/junbao/RDA/data/Office-31/dslr/images/bike/frame_0020.jpg 1 0 9.900231104111299
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0003_corrupted.jpg 23 0 71.92760876566172
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0004_corrupted.jpg 23 0 109.54791364073753
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0005.jpg 23 0 34.17397337779403
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0007.jpg 23 0 33.77319492213428
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0008.jpg 23 0 26.548623874783516
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0009.jpg 23 0 28.146341507323086
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0010.jpg 23 0 32.57568036299199
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0011_corrupted.jpg 23 0 85.57237496972084
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0012.jpg 23 0 27.426789658144116
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0013.jpg 23 0 38.64667403884232
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0014.jpg 23 0 33.81765653472394
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0015.jpg 23 0 34.00632144138217
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0016_corrupted.jpg 23 0 124.24235135316849
+/data1/junbao/RDA/data/Office-31/dslr/images/punchers/frame_0017.jpg 23 0 36.35369420051575
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0001.jpg 0 0 42.55046480149031
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0002.jpg 0 0 36.65236210078001
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0004.jpg 0 0 32.869970094412565
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0005_corrupted.jpg 0 0 84.95686364173889
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0006.jpg 0 0 37.74064389616251
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0008_corrupted.jpg 0 0 74.2268827110529
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0010.jpg 0 0 26.834038453176618
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0011.jpg 0 0 30.79332695901394
+/data1/junbao/RDA/data/Office-31/dslr/images/back_pack/frame_0012_corrupted.jpg 0 0 89.9421332553029
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0001.jpg 8 0 24.222995225340128
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0004_corrupted.jpg 8 0 138.82286298274994
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0005.jpg 8 0 37.09201881289482
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0006.jpg 8 0 27.222395576536655
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0007.jpg 8 0 21.38300329260528
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0008.jpg 8 0 21.863414661958814
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0009.jpg 8 0 21.083427108824253
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0010.jpg 8 0 30.45498699322343
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0011.jpg 8 0 31.488066870719194
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0013.jpg 8 0 18.85341128706932
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0014_corrupted.jpg 8 0 78.26903811097145
+/data1/junbao/RDA/data/Office-31/dslr/images/desktop_computer/frame_0015.jpg 8 0 18.534763976931572
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0001.jpg 27 0 19.555566281080246
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0004.jpg 27 0 20.226425644010305
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0005.jpg 27 0 23.022933155298233
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0008.jpg 27 0 28.923487037420273
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0009.jpg 27 0 35.946338552981615
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0010.jpg 27 0 9.713997605722398
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0011_corrupted.jpg 27 0 50.43238865304738
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0012_corrupted.jpg 27 0 55.567111134994775
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0013_corrupted.jpg 27 0 53.95899651944637
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0014_corrupted.jpg 27 0 55.3735537212342
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0015.jpg 27 0 13.167959034908563
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0016_corrupted.jpg 27 0 56.032464196905494
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0017.jpg 27 0 14.522270440123975
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0018.jpg 27 0 12.56980847439263
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0019.jpg 27 0 13.424513089936227
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0020_corrupted.jpg 27 0 55.484984531998634
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0021.jpg 27 0 17.93430501036346
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0022.jpg 27 0 18.649515874683857
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0023.jpg 27 0 12.912480041617528
+/data1/junbao/RDA/data/Office-31/dslr/images/speaker/frame_0026_corrupted.jpg 27 0 56.58401406975463
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0001_corrupted.jpg 14 0 53.662071108818054
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0002_corrupted.jpg 14 0 68.88662422448397
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0003.jpg 14 0 11.034306015819311
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0004_corrupted.jpg 14 0 68.47579152137041
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0006.jpg 14 0 14.382222905755043
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0007.jpg 14 0 12.303033895790577
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0008.jpg 14 0 14.577034216374159
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0010.jpg 14 0 15.514913026243448
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0012.jpg 14 0 11.437326155602932
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0014.jpg 14 0 5.925773853436112
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0015.jpg 14 0 9.339684814214706
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0016.jpg 14 0 9.048795659095049
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0017.jpg 14 0 9.834428157657385
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0018.jpg 14 0 7.760100278072059
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0019.jpg 14 0 9.793500617146492
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0021.jpg 14 0 8.308566097635776
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0022.jpg 14 0 7.335426950827241
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0023.jpg 14 0 13.327659729868174
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0024.jpg 14 0 9.93348453193903
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0026.jpg 14 0 7.487281227018684
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0028.jpg 14 0 8.08657338656485
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0029.jpg 14 0 12.319198533892632
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0030.jpg 14 0 9.403059229720384
+/data1/junbao/RDA/data/Office-31/dslr/images/mobile_phone/frame_0031.jpg 14 0 9.303551937453449
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0001_corrupted.jpg 18 0 58.56598041951656
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0003_corrupted.jpg 18 0 59.435940619558096
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0004_corrupted.jpg 18 0 47.647917655296624
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0005.jpg 18 0 23.586051498539746
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0006.jpg 18 0 26.044761894270778
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0007_corrupted.jpg 18 0 56.43070488516241
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0008.jpg 18 0 34.413624465465546
+/data1/junbao/RDA/data/Office-31/dslr/images/paper_notebook/frame_0009.jpg 18 0 32.250935826450586
+/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0001_corrupted.jpg 25 0 92.6871649324894
+/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0002.jpg 25 0 29.96984514594078
+/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0003.jpg 25 0 26.67450320534408
+/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0005.jpg 25 0 40.142173543572426
+/data1/junbao/RDA/data/Office-31/dslr/images/ruler/frame_0007.jpg 25 0 36.72920452430844
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0001.jpg 13 0 41.24105177074671
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0003.jpg 13 0 22.289266309700906
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0004.jpg 13 0 28.07862373907119
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0005.jpg 13 0 33.51614312455058
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0007.jpg 13 0 18.187562650535256
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0008.jpg 13 0 38.04977582767606
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0009.jpg 13 0 18.588205872336403
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0010.jpg 13 0 21.67944106645882
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0012_corrupted.jpg 13 0 78.27882784605026
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0013_corrupted.jpg 13 0 76.76190534234047
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0014.jpg 13 0 19.11837250739336
+/data1/junbao/RDA/data/Office-31/dslr/images/letter_tray/frame_0016.jpg 13 0 22.73943492025137
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0001.jpg 9 0 22.896996736060828
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0002.jpg 9 0 21.29865888436325
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0003.jpg 9 0 18.153443612041883
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0004.jpg 9 0 23.532616276759654
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0005.jpg 9 0 21.313492585206404
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0007.jpg 9 0 23.730703302426264
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0008.jpg 9 0 29.101701140403748
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0009.jpg 9 0 30.773271089419723
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0010.jpg 9 0 27.448328646831214
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0011.jpg 9 0 21.000504780560732
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0014.jpg 9 0 27.18756752088666
+/data1/junbao/RDA/data/Office-31/dslr/images/file_cabinet/frame_0015.jpg 9 0 34.23942907899618
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0001.jpg 20 0 17.152892115991563
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0002.jpg 20 0 17.727489752694964
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0005_corrupted.jpg 20 0 111.82937866449356
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0006.jpg 20 0 20.883966686204076
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0007_corrupted.jpg 20 0 104.33253136277199
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0009.jpg 20 0 19.270964535418898
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0010.jpg 20 0 20.152744099497795
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0011.jpg 20 0 22.013245340436697
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0012.jpg 20 0 19.108719240874052
+/data1/junbao/RDA/data/Office-31/dslr/images/phone/frame_0013.jpg 20 0 18.538125568069518
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0001.jpg 3 0 35.248316277284175
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0002.jpg 3 0 43.31926183588803
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0003.jpg 3 0 48.29052300751209
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0005.jpg 3 0 44.65991738252342
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0006.jpg 3 0 37.43174439901486
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0008.jpg 3 0 37.08469255641103
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0009_corrupted.jpg 3 0 79.91102039068937
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0010.jpg 3 0 35.85849208012223
+/data1/junbao/RDA/data/Office-31/dslr/images/bookcase/frame_0011.jpg 3 0 37.36870631505735
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0001.jpg 22 0 28.941644767299294
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0003.jpg 22 0 17.12152318144217
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0005.jpg 22 0 16.267846334259957
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0006.jpg 22 0 21.16454913839698
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0007.jpg 22 0 17.952338533010334
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0009.jpg 22 0 14.748483610805124
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0010.jpg 22 0 13.455354368605185
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0011.jpg 22 0 17.203166561201215
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0012_corrupted.jpg 22 0 74.61239401996136
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0013_corrupted.jpg 22 0 77.6153883561492
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0014.jpg 22 0 13.996008440153673
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0015.jpg 22 0 11.73369147721678
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0016.jpg 22 0 44.47496211528778
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0019_corrupted.jpg 22 0 81.31070455163717
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0020_corrupted.jpg 22 0 82.83221676945686
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0021_corrupted.jpg 22 0 62.371670223772526
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0022.jpg 22 0 25.04879203531891
+/data1/junbao/RDA/data/Office-31/dslr/images/projector/frame_0023.jpg 22 0 27.606730385683477
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0001.jpg 28 0 44.014957666397095
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0003.jpg 28 0 19.12451089080423
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0004.jpg 28 0 16.771658647805452
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0005.jpg 28 0 28.8090388327837
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0006.jpg 28 0 18.577061072923243
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0008.jpg 28 0 16.7844995604828
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0009_corrupted.jpg 28 0 86.29436162114143
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0010_corrupted.jpg 28 0 81.71817407011986
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0011.jpg 28 0 35.56383961439133
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0012.jpg 28 0 29.83685004711151
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0013.jpg 28 0 27.4931302331388
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0014.jpg 28 0 32.656091652810574
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0015.jpg 28 0 25.531971368938684
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0016.jpg 28 0 29.556426495313644
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0018.jpg 28 0 25.7100536711514
+/data1/junbao/RDA/data/Office-31/dslr/images/stapler/frame_0020.jpg 28 0 27.4166242107749
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0001.jpg 30 0 38.23580389842391
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0002.jpg 30 0 43.69999448955059
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0003.jpg 30 0 34.89467225037515
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0004.jpg 30 0 31.236849384382367
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0006.jpg 30 0 25.087933513801545
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0008.jpg 30 0 26.722249034792185
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0009.jpg 30 0 29.504421900724992
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0010.jpg 30 0 28.054743672721088
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0011.jpg 30 0 23.438394042430446
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0012.jpg 30 0 24.168056757654995
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0013.jpg 30 0 25.423676728270948
+/data1/junbao/RDA/data/Office-31/dslr/images/trash_can/frame_0014_corrupted.jpg 30 0 58.80412266403437
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0001.jpg 2 0 10.801582823507488
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0003.jpg 2 0 15.643554231151938
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0004.jpg 2 0 8.526455648010597
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0005.jpg 2 0 9.532216649735346
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0006_corrupted.jpg 2 0 45.88023291155696
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0008_corrupted.jpg 2 0 51.21160129876807
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0010.jpg 2 0 8.813951141899452
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0011.jpg 2 0 13.577275081537664
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0012.jpg 2 0 13.571821188786998
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0014.jpg 2 0 6.707905348332133
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0015.jpg 2 0 8.08180015324615
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0016.jpg 2 0 7.758003046619706
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0017_corrupted.jpg 2 0 23.16172768175602
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0018.jpg 2 0 12.062452104873955
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0019.jpg 2 0 6.858815157786012
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0020.jpg 2 0 8.689626979175955
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0022.jpg 2 0 10.407082452205941
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0023.jpg 2 0 11.549066769424826
+/data1/junbao/RDA/data/Office-31/dslr/images/bike_helmet/frame_0024.jpg 2 0 7.4643842881778255
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0001.jpg 10 0 41.285326950252056
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0003_corrupted.jpg 10 0 78.8262518197298
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0004.jpg 10 0 29.7847254993394
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0005.jpg 10 0 31.845806166529655
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0008_corrupted.jpg 10 0 76.01855137944221
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0009.jpg 10 0 25.460823517292738
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0010.jpg 10 0 27.982066254597157
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0011.jpg 10 0 36.075497132726014
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0012.jpg 10 0 30.023036124184728
+/data1/junbao/RDA/data/Office-31/dslr/images/headphones/frame_0013.jpg 10 0 22.698742403648794
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0002_corrupted.jpg 7 0 73.43542757630348
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0003.jpg 7 0 27.150001674890518
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0005.jpg 7 0 24.403357253409922
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0006.jpg 7 0 27.771178487688303
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0007.jpg 7 0 24.948457770049572
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0008.jpg 7 0 21.334031211212277
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0009.jpg 7 0 19.897035967558622
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0010.jpg 7 0 24.182951170951128
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0011_corrupted.jpg 21 0 124.92830014228821
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0012.jpg 7 0 22.18748339265585
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0013.jpg 7 0 13.049530948977917
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_lamp/frame_0014.jpg 7 0 15.498721891082823
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0001.jpg 6 0 38.865830693393946
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0002_corrupted.jpg 6 0 97.01251488924026
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0003_corrupted.jpg 6 0 72.32171032205224
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0004_corrupted.jpg 6 0 75.34097023308277
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0005.jpg 6 0 40.82909068837762
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0006.jpg 6 0 38.681478725746274
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0008_corrupted.jpg 6 0 96.02833283692598
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0009_corrupted.jpg 6 0 97.07764517143369
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0012_corrupted.jpg 6 0 84.61070226877928
+/data1/junbao/RDA/data/Office-31/dslr/images/desk_chair/frame_0013.jpg 6 0 42.56566563248634
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0001.jpg 4 0 15.572679315228015
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0002_corrupted.jpg 4 0 47.03270880877972
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0003.jpg 4 0 17.434024032205343
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0004.jpg 4 0 14.655777274630964
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0006.jpg 4 0 20.37989679351449
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0008.jpg 4 0 12.406844865065068
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0009_corrupted.jpg 4 0 58.53136686980724
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0010.jpg 4 0 15.118510410189629
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0011.jpg 4 0 11.243738183751702
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0012.jpg 4 0 13.339776472654194
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0013_corrupted.jpg 4 0 49.80926691740751
+/data1/junbao/RDA/data/Office-31/dslr/images/bottle/frame_0015.jpg 4 0 19.034208480268717

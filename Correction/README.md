@@ -15,5 +15,5 @@ Put relabeled samples and their associated aggregated uncertainty together for t
 ```python
 python generate_file_for_adaptation.py
 ```
-One can easily modified the codes for Office-Home and Bing-Caltech.
+One can easily modify the codes for Office-Home and Bing-Caltech.
 

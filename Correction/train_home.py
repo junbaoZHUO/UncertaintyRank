@@ -160,7 +160,7 @@ def main():
 
         update_num=train(source_loader, model, optimizer, epoch, update_num, M, V, TARGET)
 
-        EEE=validate(model, M, V, epoch, source_loader2, traindir, Aggregation, TARGET)
+        Aggregation=validate(model, M, V, epoch, source_loader2, traindir, Aggregation, TARGET)
 
     traindir3 = traindir.split('.txt')[0]+'_WEIGHT.txt'
     Aggregation_record =open(traindir3, 'w')

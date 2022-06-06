@@ -159,7 +159,7 @@ def main():
 
         update_num=train(source_loader, model, optimizer, epoch, update_num, M, V, TARGET, traindir)
 
-        EEE=validate(model, M, V, epoch, source_loader2, traindir, Aggregation, TARGET)
+        Aggregation=validate(model, M, V, epoch, source_loader2, traindir, Aggregation, TARGET)
 
 
 def train(train_loader, model, optimizer, epoch, update_num, M, V, TARGET, traindir):

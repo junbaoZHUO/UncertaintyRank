@@ -78,16 +78,16 @@ class MDD(object):
             self.c_net = self.c_net.cuda()
         self.srcweight = srcweight
 
-    def get_loss(self, inputs, labels_source, N_N, WEIGHT):
+    def get_loss(self, inputs, labels_source, N_N, _hat_r_i):
         class_criterion = nn.CrossEntropyLoss()
         _, outputs, _, outputs_adv = self.c_net(inputs)
-        classifier_loss = (nn.CrossEntropyLoss(reduce=False)(outputs.narrow(0, 0, labels_source.size(0)), labels_source).view(-1,1)*normalize_weight(0-WEIGHT)).mean()
+        classifier_loss = (nn.CrossEntropyLoss(reduce=False)(outputs.narrow(0, 0, labels_source.size(0)), labels_source).view(-1,1)*normalize_weight(0-_hat_r_i)).mean()
 
         target_adv = outputs.max(1)[1]
         target_adv_src = target_adv.narrow(0, 0, labels_source.size(0))
         target_adv_tgt = target_adv.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N)
 
-        classifier_loss_adv_src = (nn.CrossEntropyLoss(reduce=False)(outputs_adv.narrow(0, 0, labels_source.size(0)), target_adv_src).view(-1,1)*normalize_weight(0-WEIGHT)).mean()
+        classifier_loss_adv_src = (nn.CrossEntropyLoss(reduce=False)(outputs_adv.narrow(0, 0, labels_source.size(0)), target_adv_src).view(-1,1)*normalize_weight(0-_hat_r_i)).mean()
 
         logloss_tgt = torch.log(torch.clamp(1 - F.softmax(outputs_adv.narrow(0, labels_source.size(0), inputs.size(0) - labels_source.size(0)-N_N), dim = 1), min=1e-15)) #add small value to avoid the log value expansion
 

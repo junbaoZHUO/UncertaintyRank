@@ -72,7 +72,7 @@ def train(model_instance, train_source_clean_loader, train_source_noisy_loader, 
                 zip(train_source_clean_loader, train_source_noisy_loader, train_target_loader),
                 total=min(len(train_source_clean_loader), len(train_target_loader)),
                 desc='Train epoch = {}'.format(epoch), ncols=80, leave=False):
-            inputs_source, labels_source, _, WEIGHT = datas_clean
+            inputs_source, labels_source, _, _hat_r_i = datas_clean
             inputs_source_noisy, labels_source_noisy, _,_ = datas_noisy
             inputs_target, labels_target, _,_ = datat
 
@@ -84,7 +84,7 @@ def train(model_instance, train_source_clean_loader, train_source_noisy_loader, 
             else:
                 inputs_source, inputs_source_noisy, inputs_target, labels_source, labels_source_noisy = Variable(inputs_source),  Variable(inputs_source_noisy), Variable(inputs_target), Variable(labels_source), Variable(labels_source_noisy)
 
-            total_loss = train_batch(model_instance, inputs_source, labels_source, inputs_target, optimizer, iter_num, max_iter, inputs_source_noisy, Variable(WEIGHT.cuda()))
+            total_loss = train_batch(model_instance, inputs_source, labels_source, inputs_target, optimizer, iter_num, max_iter, inputs_source_noisy, Variable(_hat_r_i.cuda()))
 
             #val
             if iter_num % eval_interval == 0 and iter_num != 0:
@@ -102,9 +102,9 @@ def train(model_instance, train_source_clean_loader, train_source_noisy_loader, 
             break
     print('finish train')
     return [loss, result]
-def train_batch(model_instance, inputs_source, labels_source, inputs_target, optimizer, iter_num, max_iter, inputs_source_noisy, WEIGHT):
+def train_batch(model_instance, inputs_source, labels_source, inputs_target, optimizer, iter_num, max_iter, inputs_source_noisy, _hat_r_i):
     inputs = torch.cat((inputs_source, inputs_target, inputs_source_noisy), dim=0)
-    total_loss = model_instance.get_loss(inputs, labels_source, len(inputs_source_noisy), WEIGHT.cuda())
+    total_loss = model_instance.get_loss(inputs, labels_source, len(inputs_source_noisy), _hat_r_i.cuda())
     total_loss[0].backward()
     clip_gradient(optimizer, 1.0)
     optimizer.step()

@@ -87,10 +87,10 @@ class ImageList(object):
             tuple: (image, target) where target is class_index of the target class.
         """
         if len(self.imgs[0])==3:
-            path, target, WEIGHT = self.imgs[index]
+            path, target, _hat_r_i = self.imgs[index]
         else:
             path, target = self.imgs[index]
-            WEIGHT=0
+            _hat_r_i = 0
         if '/data1/junbao' in path:
             img = self.loader(path)
         else:
@@ -100,7 +100,7 @@ class ImageList(object):
         if self.target_transform is not None:
             target = self.target_transform(target)
         #TODO return true target labels
-        return img, target, index, WEIGHT
+        return img, target, index, _hat_r_i
 
     def __len__(self):
         return len(self.imgs)

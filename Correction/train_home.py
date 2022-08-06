@@ -190,21 +190,21 @@ def train(train_loader, model, optimizer, epoch, update_num, M, V, TARGET):
         optimizer.zero_grad()
         feat_   = model(inputs.cuda())
         feat   = F.dropout(feat_,  0.5, training=True)
-        M_  = M(feat)
-        V_  = torch.nn.LeakyReLU()(V(feat))
+        _mu_  = M(feat)
+        _epsilon_  = torch.nn.LeakyReLU()(V(feat))
 
-        loss_ =  nn.CrossEntropyLoss(reduce=False).cuda()(M_, T.long().cuda()) 
-        ee,ff = torch.sort(V_,dim=0)
+        loss_ =  nn.CrossEntropyLoss(reduce=False).cuda()(_mu_, T.long().cuda()) 
+        ee,ff = torch.sort(_epsilon_,dim=0)
 
 
         TT=T.clone()
-        _, PP = torch.max(M_, dim=1)
+        _, PP = torch.max(_mu_, dim=1)
         for ii in range(int(ff.size(0))):
-            TT[ii]= np.random.randint(0, M_.size(1)) 
+            TT[ii]= np.random.randint(0, _mu_.size(1)) 
             while TT[ii]==int(T[ii].item()) or TT[ii] ==int(PP[ii].item()):
-                TT[ii]= np.random.randint(0, M_.size(1)) 
+                TT[ii]= np.random.randint(0, _mu_.size(1)) 
 
-        lo = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(M_, TT.long().cuda()).view(-1,1) *torch.exp(0-V_) ).mean() + V_.mean()  * 0.5 
+        lo = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(_mu_, TT.long().cuda()).view(-1,1) *torch.exp(0-_epsilon_) ).mean() + _epsilon_.mean()  * 0.5 
 
         grads = torch.autograd.grad(lo, V.parameters(), create_graph=True, retain_graph=True, only_inputs=True)
         for grad in grads:
@@ -213,25 +213,25 @@ def train(train_loader, model, optimizer, epoch, update_num, M, V, TARGET):
         fast_weights = OrderedDict((name, param - LR*grad) for ((name, param), grad) in zip(V.named_parameters(), grads))
         fast_out  = my_forward(feat , fast_weights, V)
 
-        lo1 = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(M_, T.long().cuda()).view(-1,1)  *torch.exp(0-V_ )).mean() + V_.mean()  * 0.5 
+        lo1 = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(_mu_, T.long().cuda()).view(-1,1)  *torch.exp(0-_epsilon_ )).mean() + _epsilon_.mean()  * 0.5 
 
         grads_ = torch.autograd.grad(lo1, V.parameters(), create_graph=True, retain_graph=True, only_inputs=True)
         for grad in grads_:
             grad.detach()
         fast_weights_ = OrderedDict((name, param - LR*grad) for ((name, param), grad) in zip(V.named_parameters(), grads_))
         fast_out1  = my_forward(feat , fast_weights_, V)
-        entropy_s = Entropy(torch.softmax(M_, dim=1)) 
+        entropy_s = Entropy(torch.softmax(_mu_, dim=1)) 
         entropy_s.register_hook(grl_hook(coeff))
         entropy_s = 1.0+torch.exp(-entropy_s)
-        lc = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(M_ ,T.long().cuda()).view(-1,1)  *torch.exp(0-V_)).mean() + V_.mean() * 0.5 \
+        lc = 0.5 * (nn.CrossEntropyLoss(reduce=False).cuda()(_mu_ ,T.long().cuda()).view(-1,1)  *torch.exp(0-_epsilon_)).mean() + _epsilon_.mean() * 0.5 \
            + torch.clamp(0.20 + fast_out1  - fast_out , 0, 1000).mean() \
 
-        y_pred = F.softmax(M_,dim=1)
+        y_pred = F.softmax(_mu_,dim=1)
         y_pred = torch.clamp(y_pred, 1e-4, 1.0-1e-4)
         y_pred_ = y_pred.data.detach()
         TARGET[index] = 0.90 * TARGET[index] + 0.10 * ((y_pred_)/(y_pred_).sum(dim=1,keepdim=True))
         elr_reg = ((1-(TARGET[index].detach() * y_pred).sum(dim=1)).log()).mean()
-        lc += elr_reg - Entropy(torch.mean(F.softmax(M_,dim=1),dim=0).view(1,-1)).sum()
+        lc += elr_reg - Entropy(torch.mean(F.softmax(_mu_,dim=1),dim=0).view(1,-1)).sum()
         optimizer.zero_grad()
         lc.backward(retain_graph=True)
 
@@ -294,9 +294,9 @@ def validate(model, C1, V, epoch, loader, traindir, EEE, TARGET):
                 feat = F.dropout(feat,   0.5, training=False)
                 output = C1(feat)
 
-                V_p = torch.nn.LeakyReLU()(V(feat))
-                lc = nn.CrossEntropyLoss(reduce=False).cuda()(output ,target.long().cuda()).view(-1,1) *torch.exp(V_p)
-                for cc in range(V_p.size()[0]):
+                _epsilon_p = torch.nn.LeakyReLU()(V(feat))
+                lc = nn.CrossEntropyLoss(reduce=False).cuda()(output ,target.long().cuda()).view(-1,1) *torch.exp(_epsilon_p)
+                for cc in range(_epsilon_p.size()[0]):
                     EE.append(lc[cc].item())
 
                 _, P = torch.max(output,dim=1)

@@ -1,4 +1,4 @@
-# Instruction for training Correction Network
+# Instruction for training Adaptation Network
 pytorch 0.3.1<br>
 torchvision 0.2.0<br>
 python 3.6.0<br>

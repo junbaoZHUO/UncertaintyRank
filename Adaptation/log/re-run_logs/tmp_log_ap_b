@@ -1,0 +1,46 @@
+init_lr: 0.004
+optim: {'type': 'sgd', 'params': {'lr': 0.004, 'momentum': 0.9, 'weight_decay': 0.0005, 'nesterov': True}}
+lr_scheduler: {'type': 'inv', 'gamma': 0.001, 'decay_rate': 0.75}
+Namespace(config='/data1/junbao/TMM-git/Adaptation/config/dann.yml', dataset='Office-Home', maxIter=40000, noisy_rate=0.4, src_address='/data1/junbao/TMM-git/Adaptation/data/Office-Home/Art_feature_uniform_noisy_0.4.txt', stats_file='/data1/junbao/TMM-git/Adaptation/statistic/MDD-A2W-feature_uniform-noisy-0.4-2022-08-10-17-40-48.pkl', tgt_address='/data1/junbao/TMM-git/Adaptation/data/Office-Home/Product.txt')
+start train...
+source domain: {'accuracy': 0.5591349403018698}
+source domain: {'accuracy': 0.5992340617256139}
+source domain: {'accuracy': 0.6307726965532777}
+source domain: {'accuracy': 0.6560036044154088}
+source domain: {'accuracy': 0.6614102275287227}
+source domain: {'accuracy': 0.6706465420139671}
+source domain: {'accuracy': 0.6688443343095292}
+source domain: {'accuracy': 0.6620860554178869}
+source domain: {'accuracy': 0.679432304573102}
+source domain: {'accuracy': 0.6792070286100473}
+source domain: {'accuracy': 0.6798828564992115}
+source domain: {'accuracy': 0.6834872719080874}
+source domain: {'accuracy': 0.6850642036494706}
+source domain: {'accuracy': 0.6837125478711421}
+source domain: {'accuracy': 0.6819103401667043}
+source domain: {'accuracy': 0.6846136517233611}
+source domain: {'accuracy': 0.6821356161297589}
+source domain: {'accuracy': 0.6843883757603064}
+source domain: {'accuracy': 0.6866411353908538}
+source domain: {'accuracy': 0.6900202748366749}
+source domain: {'accuracy': 0.6857400315386348}
+source domain: {'accuracy': 0.6875422392430728}
+source domain: {'accuracy': 0.6897949988736202}
+source domain: {'accuracy': 0.6866411353908538}
+source domain: {'accuracy': 0.6897949988736202}
+source domain: {'accuracy': 0.6897949988736202}
+source domain: {'accuracy': 0.6911466546519487}
+source domain: {'accuracy': 0.6897949988736202}
+source domain: {'accuracy': 0.6904708267627844}
+source domain: {'accuracy': 0.6877675152061276}
+source domain: {'accuracy': 0.6931741383194413}
+source domain: {'accuracy': 0.6895697229105654}
+source domain: {'accuracy': 0.6886686190583464}
+source domain: {'accuracy': 0.6884433430952918}
+source domain: {'accuracy': 0.6893444469475107}
+source domain: {'accuracy': 0.6884433430952918}
+source domain: {'accuracy': 0.6879927911691822}
+source domain: {'accuracy': 0.6866411353908538}
+source domain: {'accuracy': 0.6879927911691822}
+source domain: {'accuracy': 0.6868664113539086}
+finish train

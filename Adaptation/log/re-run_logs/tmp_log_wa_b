@@ -1,0 +1,16 @@
+init_lr: 0.004
+optim: {'type': 'sgd', 'params': {'lr': 0.004, 'momentum': 0.9, 'weight_decay': 0.0005, 'nesterov': True}}
+lr_scheduler: {'type': 'inv', 'gamma': 0.001, 'decay_rate': 0.75}
+Namespace(config='/data1/junbao/TMM-git/Adaptation/config/dann.yml', dataset='Office-31', maxIter=10000, noisy_rate=0.4, src_address='/data1/junbao/TMM-git/Adaptation/data/Office-31/webcam_feature_uniform_noisy_0.4.txt', stats_file='/data1/junbao/TMM-git/Adaptation/statistic/MDD-A2W-feature_uniform-noisy-0.4-2022-07-27-22-04-30.pkl', tgt_address='/data1/junbao/TMM-git/Adaptation/data/Office-31/amazon.txt')
+start train...
+source domain: {'accuracy': 0.6364927227547036}
+source domain: {'accuracy': 0.6950656727014555}
+source domain: {'accuracy': 0.7323393681221158}
+source domain: {'accuracy': 0.7323393681221158}
+source domain: {'accuracy': 0.7376641817536386}
+source domain: {'accuracy': 0.7383741569045084}
+source domain: {'accuracy': 0.7369542066027689}
+source domain: {'accuracy': 0.7376641817536386}
+source domain: {'accuracy': 0.736599219027334}
+source domain: {'accuracy': 0.7369542066027689}
+finish train

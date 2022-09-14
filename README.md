@@ -11,12 +11,13 @@ Then robust domain adaptation is performed (Adaptation).</br>
 
 ## Citation
 If you find this is helpful for you, please kindly cite our paper.</br>
-@ARTICLE{9882310,</br>
-  author={Zhuo, Junbao and Wang, Shuhui and Huang, Qingming},</br>
-  journal={IEEE Transactions on Multimedia}, </br>
-  title={Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments}, </br>
-  year={2022},</br>
-  volume={},</br>
-  number={},</br>
-  pages={1-14},</br>
-  doi={10.1109/TMM.2022.3205457}}</br>
+@ARTICLE{Zhuo22TMM,</br>
+> author={Zhuo, Junbao and Wang, Shuhui and Huang, Qingming},</br>
+> journal={IEEE Transactions on Multimedia}, </br>
+> title={Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments}, </br>
+> year={2022},</br>
+> volume={},</br>
+> number={},</br>
+> pages={1-14},</br>
+> doi={10.1109/TMM.2022.3205457}</br>
+}</br>

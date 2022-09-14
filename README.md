@@ -1,6 +1,6 @@
 # Codes for Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments
 
-[!framework4.jpg](https://github.com/junbaoZHUO/UncertaintyRank/blob/master/framework4.png)
+![framework4.jpg](https://github.com/junbaoZHUO/UncertaintyRank/blob/master/framework4.png)
 
 This work addresses the unsupervised domain adaptation under noisy environment.</br>
 Our method first select trusted samples of noisy source domain (Correction).</br>

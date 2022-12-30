@@ -6,7 +6,7 @@ The framework of our method. It follows a two-stage process: clean sample select
 
 
 ## Datasets
-The noisified version of Office-31 and Office-home datasets can be founed in https://pan.baidu.com/s/1NW2Bkc65BhOar915DE2GbA (with code: e068) and https://pan.baidu.com/s/19zBXpNxbGAtVTNjwGAZShw (with code: fchl), respectively. Download the datasets and put them in your computer and change the paths of images in office_list/amazon_list.txt into yours. The Bing-Caltech dataset can be found in https://vlg.cs.dartmouth.edu/projects/domainadapt.
+The noisified version of Office-31 and Office-home datasets can be founed in https://pan.baidu.com/s/1NW2Bkc65BhOar915DE2GbA (with code: e068) and https://pan.baidu.com/s/19zBXpNxbGAtVTNjwGAZShw (with code: fchl), respectively. Download the datasets and put them in your computer and change the paths of images in all *_list.txt files like office_list/amazon_list.txt into yours. The Bing-Caltech dataset can be found in https://vlg.cs.dartmouth.edu/projects/domainadapt.
 
 ## Instruction
 Go to Correction, select trusted samples of noisy source domain.</br>

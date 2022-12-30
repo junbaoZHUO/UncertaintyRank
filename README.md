@@ -4,6 +4,10 @@
 ![framework4.jpg](https://github.com/junbaoZHUO/UncertaintyRank/blob/master/framework4.png)
 The framework of our method. It follows a two-stage process: clean sample selection and robust domain adaptation. In the first stage, the correction network is designed to output classification responses and uncertainty. The correction network is trained with the uncertainty-reweighted classification loss, the UncertaintyRank loss and early regularization. Once the model is trained, the original noisy source domain samples are relabeled. The relabeled samples with smaller uncertainties are selected to train the adaptation network in the second stage. The predicted uncertainties of the selected samples are also preserved and utilized to reweight the classification loss and MDD loss for robustly training the adaptation network.</br>
 
+
+## datasets
+The noisified version of Office-31 and Office-home datasets can be founed in https://pan.baidu.com/s/1NW2Bkc65BhOar915DE2GbA (with code: e068) and https://pan.baidu.com/s/19zBXpNxbGAtVTNjwGAZShw (with code: fchl), respectively. Download the datasets and put them in your computer and change the paths of images in office_list/amazon_list.txt into yours. The Bing-Caltech dataset can be found in https://vlg.cs.dartmouth.edu/projects/domainadapt.
+
 ## Instruction
 Go to Correction, select trusted samples of noisy source domain.</br>
 Go to Adaptation, perform robust domain adaptation.</br>
